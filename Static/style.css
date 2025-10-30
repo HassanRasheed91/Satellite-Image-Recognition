@@ -1,0 +1,96 @@
+/* Fullscreen background */
+body {
+    background: url("image.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #ffffff; /* Changed to white */
+    padding: 1rem 0;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white; /* Changed to black */
+}
+
+.navbar .nav-item .nav-link {
+    color: whie; /* Changed to black */
+    font-weight: 500;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for navbar links */
+.navbar .nav-item .nav-link:hover {
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Tabs Styling */
+.nav-tabs {
+    border-bottom: 2px solid #ddd;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #007bff;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+/* About and Dataset Section */
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Dataset Image */
+.dataset-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Centered Box */
+.app-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 30%;
+    opacity: 87%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Image Preview Styling */
+.preview-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
